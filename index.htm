@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>藥品查詢系統</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .card { display: inline-block; margin: 10px; padding: 20px; border: 1px solid #ccc; cursor: pointer; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <h1>藥品查詢系統</h1>
+    <button onclick="showCategories()">藥品分類</button>
+    <button onclick="showFlashcard()">單字卡</button>
+    
+    <div id="category-section" class="hidden">
+        <h2>選擇分類</h2>
+        <div id="category-list"></div>
+        <h2 id="selected-category" class="hidden"></h2>
+        <div id="medicine-list"></div>
+    </div>
+    
+    <div id="flashcard-section" class="hidden">
+        <h2>單字卡模式</h2>
+        <div class="card" id="flashcard" onclick="flipFlashcard()">點擊顯示成分</div>
+    </div>
+    
+    <script>
+        let medicines = [];
+        let categories = {};
+        let currentFlashcard = null;
+
+        async function loadMedicines() {
+            const response = await fetch("medicine_data.json");
+            medicines = await response.json();
+            categorizeMedicines();
+            renderCategories();
+        }
+
+        function categorizeMedicines() {
+            categories = {};
+            medicines.forEach(med => {
+                if (!categories[med.category]) {
+                    categories[med.category] = [];
+                }
+                categories[med.category].push(med);
+            });
+        }
+
+        function renderCategories() {
+            const list = document.getElementById("category-list");
+            list.innerHTML = "";
+            Object.keys(categories).forEach(category => {
+                const btn = document.createElement("button");
+                btn.textContent = category;
+                btn.onclick = () => showMedicines(category);
+                list.appendChild(btn);
+            });
+        }
+
+        function showMedicines(category) {
+            document.getElementById("selected-category").textContent = category;
+            document.getElementById("selected-category").classList.remove("hidden");
+            const list = document.getElementById("medicine-list");
+            list.innerHTML = "";
+            categories[category].forEach(med => {
+                const card = document.createElement("div");
+                card.className = "card";
+                card.textContent = med.name;
+                card.onclick = () => { card.textContent = (card.textContent === med.name) ? med.ingredient : med.name; };
+                list.appendChild(card);
+            });
+        }
+
+        function showCategories() {
+            document.getElementById("category-section").classList.remove("hidden");
+            document.getElementById("flashcard-section").classList.add("hidden");
+        }
+
+        function showFlashcard() {
+            document.getElementById("category-section").classList.add("hidden");
+            document.getElementById("flashcard-section").classList.remove("hidden");
+            nextFlashcard();
+        }
+
+        function nextFlashcard() {
+            const randomIndex = Math.floor(Math.random() * medicines.length);
+            currentFlashcard = medicines[randomIndex];
+            document.getElementById("flashcard").textContent = currentFlashcard.name;
+        }
+
+        function flipFlashcard() {
+            const card = document.getElementById("flashcard");
+            card.textContent = (card.textContent === currentFlashcard.name) ? currentFlashcard.ingredient : currentFlashcard.name;
+        }
+
+        loadMedicines();
+    </script>
+</body>
+</html>
