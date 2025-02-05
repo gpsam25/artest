@@ -1,0 +1,898 @@
+[
+    {
+        "name": "安復黴素\n (乾粉懸濁注射液)",
+        "ingredient": "Amoxycillin"
+    },
+    {
+        "name": "安復黴素",
+        "ingredient": "Amoxycillin"
+    },
+    {
+        "name": "安本奇靈注射劑",
+        "ingredient": "Ampicillin"
+    },
+    {
+        "name": "安比西林滅菌懸濁液",
+        "ingredient": "Ampicillin"
+    },
+    {
+        "name": "益西林懸濁液",
+        "ingredient": "Penicillin G Procaine"
+    },
+    {
+        "name": "益西林油質懸濁液",
+        "ingredient": "Penicillin G Procaine"
+    },
+    {
+        "name": "益西林",
+        "ingredient": "Procaine Penicillin G"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "益瑞惜福",
+        "ingredient": "Ceftiofur"
+    },
+    {
+        "name": "益瑞幸褔RTU",
+        "ingredient": "Ceftiofur"
+    },
+    {
+        "name": "益瑞慧靈",
+        "ingredient": "Ceftiofur"
+    },
+    {
+        "name": "益發",
+        "ingredient": "Cephalothin"
+    },
+    {
+        "name": "賜福克寧",
+        "ingredient": "Cefquinome"
+    },
+    {
+        "name": "益康黴素注射劑",
+        "ingredient": "Kanamycin"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "益康黴素注射液",
+        "ingredient": "Kanamycin"
+    },
+    {
+        "name": "益康250",
+        "ingredient": "Kanamycin"
+    },
+    {
+        "name": "益瑞寶靈",
+        "ingredient": "Oxytetracycline"
+    },
+    {
+        "name": "利可黴素",
+        "ingredient": "Lincomycin"
+    },
+    {
+        "name": "利可頌300",
+        "ingredient": "Lincomycin"
+    },
+    {
+        "name": "益瑞富樂得",
+        "ingredient": "Florfenicol"
+    },
+    {
+        "name": "泰樂仙",
+        "ingredient": "Tylosin"
+    },
+    {
+        "name": "泰樂仙50",
+        "ingredient": "Tylosin"
+    },
+    {
+        "name": "施必樂黴素",
+        "ingredient": "Spiramycin"
+    },
+    {
+        "name": "益瑞晶靈",
+        "ingredient": "Tulathromycin"
+    },
+    {
+        "name": "泰保寧10%注射劑",
+        "ingredient": "Tiamulin"
+    },
+    {
+        "name": "狠有利注射劑",
+        "ingredient": "Enrofloxacin"
+    },
+    {
+        "name": "利效特 5%",
+        "ingredient": "Enrofloxacin"
+    },
+    {
+        "name": "利效特 10%",
+        "ingredient": "Enrofloxacin"
+    },
+    {
+        "name": "速邁康 20%",
+        "ingredient": "Sulfamonomethoxine"
+    },
+    {
+        "name": "速滅淨 33%",
+        "ingredient": "Sulfamethazine"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "特磺胺 25%",
+        "ingredient": "Sulfadiazine\n Sulfamerazine\n Sulfamethazine"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "百利先12% 注射劑",
+        "ingredient": "Trimethoprim\n Sulfachlorpyridazine"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "百利先24% 注射劑",
+        "ingredient": "Trimethoprim\n Sulfachlorpyridazine"
+    },
+    {
+        "name": "斯倍健注射劑",
+        "ingredient": "Spectinomycin"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "必安黴素-S",
+        "ingredient": "Procaine Penicillin G\n Dihydrostreptomycin"
+    },
+    {
+        "name": "益瑞賜得金",
+        "ingredient": "Spectinomycin\n Lincomycin"
+    },
+    {
+        "name": "泰利舒龍",
+        "ingredient": "Oxytetracycline\n Prednisolone"
+    },
+    {
+        "name": "益消炎",
+        "ingredient": "Flunixine"
+    },
+    {
+        "name": "特威鎮",
+        "ingredient": "Tolfenamic Acid"
+    },
+    {
+        "name": "神庇靈 20",
+        "ingredient": "Sulpyrin"
+    },
+    {
+        "name": "神庇靈250",
+        "ingredient": "Sulpyrine"
+    },
+    {
+        "name": "神庇靈500",
+        "ingredient": "Sulpyrine"
+    },
+    {
+        "name": "益定爽",
+        "ingredient": "Dexamethasone"
+    },
+    {
+        "name": "輔力寧",
+        "ingredient": "Prednisolone"
+    },
+    {
+        "name": "益定靈",
+        "ingredient": "Sulpyrine\n Chlorpheniramine Maleate\n DL-Methyl Ephedrine HCl"
+    },
+    {
+        "name": "炎普寧",
+        "ingredient": "Methylprednisolone Acetate"
+    },
+    {
+        "name": "Neoasp 消熱寧P\n (外銷專用)",
+        "ingredient": "Sulpyrin\n DL-Methyl Ephedrine\n Chlorpheniramine"
+    },
+    {
+        "name": "Neoas 消熱寧\n (外銷專用)",
+        "ingredient": "Sulpyrin\n DL-Methyl Ephedrine\n Chlorpheniramine"
+    },
+    {
+        "name": "益血鐵100",
+        "ingredient": "Iron Dextran"
+    },
+    {
+        "name": "益血鐵+B12",
+        "ingredient": "Iron Dextran\n Cyanocobalamin (Vit B12)"
+    },
+    {
+        "name": "倍康",
+        "ingredient": "綜合維生素"
+    },
+    {
+        "name": "蟲必清",
+        "ingredient": "Ivermectin"
+    },
+    {
+        "name": "複方原蟲尅星",
+        "ingredient": "Pyrimethamine\n Sulfadimethoxine"
+    },
+    {
+        "name": "發情素",
+        "ingredient": "Estradiol"
+    },
+    {
+        "name": "安胎素",
+        "ingredient": "Progesterone"
+    },
+    {
+        "name": "必安生注射液",
+        "ingredient": "Oxytocin"
+    },
+    {
+        "name": "安耐寧 S2％",
+        "ingredient": "Xylazine"
+    },
+    {
+        "name": "安耐寧S10%",
+        "ingredient": "Xylazine"
+    },
+    {
+        "name": "卡易眠50",
+        "ingredient": "Ketamine"
+    },
+    {
+        "name": "卡易眠100",
+        "ingredient": "Ketamine"
+    },
+    {
+        "name": "樂安寧65",
+        "ingredient": "Pentobarbital"
+    },
+    {
+        "name": "安止吐",
+        "ingredient": "Maropitant"
+    },
+    {
+        "name": "阿妥平",
+        "ingredient": "Atropine"
+    },
+    {
+        "name": "普多鈣注射劑",
+        "ingredient": "Calcium Gluconate"
+    },
+    {
+        "name": "利克素",
+        "ingredient": "Neostigmine"
+    },
+    {
+        "name": "安納加 20%",
+        "ingredient": "Caffeine & Sod. Benzoate"
+    },
+    {
+        "name": "安復黴素100",
+        "ingredient": "Amoxicillin"
+    },
+    {
+        "name": "安克斯",
+        "ingredient": "Amoxicillin"
+    },
+    {
+        "name": "精用速安300",
+        "ingredient": "Amoxicillin"
+    },
+    {
+        "name": "安百靈500",
+        "ingredient": "Amoxicillin"
+    },
+    {
+        "name": "賜福靈150",
+        "ingredient": "Cephalexin"
+    },
+    {
+        "name": "吉利源150",
+        "ingredient": "Gentamycin"
+    },
+    {
+        "name": "龍燈新黴素220",
+        "ingredient": "Neomycin"
+    },
+    {
+        "name": "瑞新黴素500",
+        "ingredient": "Neomycin"
+    },
+    {
+        "name": "多賜素",
+        "ingredient": "Doxycycline"
+    },
+    {
+        "name": "咳嗽爽100",
+        "ingredient": "Doxycycline"
+    },
+    {
+        "name": "特喜靈",
+        "ingredient": "Doxycycline"
+    },
+    {
+        "name": "咳嗽爽 200",
+        "ingredient": "Doxycycline"
+    },
+    {
+        "name": "咳嗽爽500",
+        "ingredient": "Doxycycline"
+    },
+    {
+        "name": "速可健200",
+        "ingredient": "Oxytetracycline"
+    },
+    {
+        "name": "速可健500",
+        "ingredient": "Oxytetracycline"
+    },
+    {
+        "name": "健美肥15.4%",
+        "ingredient": "Chlortetracycline"
+    },
+    {
+        "name": "利可肥110",
+        "ingredient": "Lincomycin"
+    },
+    {
+        "name": "利可肥220",
+        "ingredient": "Lincomycin"
+    },
+    {
+        "name": "利可肥 400",
+        "ingredient": "Lincomycin"
+    },
+    {
+        "name": "福佳-10",
+        "ingredient": "Florfenicol"
+    },
+    {
+        "name": "欣福佳20",
+        "ingredient": "Florfenicol"
+    },
+    {
+        "name": "精用富寧100",
+        "ingredient": "Florfenicol"
+    },
+    {
+        "name": "剋疫能100",
+        "ingredient": "Thiamphenicol"
+    },
+    {
+        "name": "精用速泰50",
+        "ingredient": "Acetylisovaleryltylosin"
+    },
+    {
+        "name": "泰樂仙500",
+        "ingredient": "Tylosin"
+    },
+    {
+        "name": "泰樂仙 S",
+        "ingredient": "Tylosin"
+    },
+    {
+        "name": "泰猛200",
+        "ingredient": "Tilmicosin"
+    },
+    {
+        "name": "益利黴素55水溶性",
+        "ingredient": "Erythromycin"
+    },
+    {
+        "name": "益氯黴素",
+        "ingredient": "Erythromycin"
+    },
+    {
+        "name": "泰保寧450",
+        "ingredient": "Tiamulin"
+    },
+    {
+        "name": "剋痢淨100",
+        "ingredient": "Flumequine"
+    },
+    {
+        "name": "剋痢淨500",
+        "ingredient": "Flumequine"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "剋菌120",
+        "ingredient": "Halquinol"
+    },
+    {
+        "name": "剋菌240",
+        "ingredient": "Halquinol"
+    },
+    {
+        "name": "納得治",
+        "ingredient": "Nalidixic acid"
+    },
+    {
+        "name": "速可清",
+        "ingredient": "Sulfachloropyrazine"
+    },
+    {
+        "name": "益剋球",
+        "ingredient": "Sulfachlorpyrazine"
+    },
+    {
+        "name": "百利先粉劑",
+        "ingredient": "Trimethoprim Sulfachlorpyridazine"
+    },
+    {
+        "name": "百利先 75",
+        "ingredient": "Trimethoprim Sulfachloropyridazine"
+    },
+    {
+        "name": "百利先800\n (外銷專用)",
+        "ingredient": "Trimethoprim Sulfachloropyridazine"
+    },
+    {
+        "name": "百力湧",
+        "ingredient": "Trimethoprim\n Sulfadiazine"
+    },
+    {
+        "name": "百力源 480",
+        "ingredient": "Trimethoprim\n Sulfadiazine"
+    },
+    {
+        "name": "百力勁 480",
+        "ingredient": "Trimethoprim\n Sulfadimethoxine"
+    },
+    {
+        "name": "可利定110",
+        "ingredient": "Colistin"
+    },
+    {
+        "name": "可利定120",
+        "ingredient": "Colistin"
+    },
+    {
+        "name": "保長100",
+        "ingredient": "Bacitracin"
+    },
+    {
+        "name": "斯倍健散",
+        "ingredient": "Spectinomycin"
+    },
+    {
+        "name": "利可健110",
+        "ingredient": "Lincomycin\n Spectinomycin"
+    },
+    {
+        "name": "寧可健S500",
+        "ingredient": "Lincomycin\n Spectinomycin"
+    },
+    {
+        "name": "特維靈水溶性散劑",
+        "ingredient": "Sulfaquinoxaline\n Diaveridine"
+    },
+    {
+        "name": "特維靈 250水溶散",
+        "ingredient": "Sulfaquinoxaline\n Diaveridine"
+    },
+    {
+        "name": "杜球清",
+        "ingredient": "Sulfaquinoxaline\n Amprolium"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "可安喜",
+        "ingredient": "Ampicillin\n Colistin"
+    },
+    {
+        "name": "滅菌素七七號",
+        "ingredient": "Tetracycline\n Benzalkonium Chloride"
+    },
+    {
+        "name": "強聯",
+        "ingredient": "Tylosin Sulfadimethoxine Vitamin K3"
+    },
+    {
+        "name": "飼王",
+        "ingredient": "綜合維生素\n Tetracycline"
+    },
+    {
+        "name": "剋蟲淨50",
+        "ingredient": "Flubendazole"
+    },
+    {
+        "name": "陶樂爽",
+        "ingredient": "Ivermectin"
+    },
+    {
+        "name": "滅蟲寶100",
+        "ingredient": "Levamisole"
+    },
+    {
+        "name": "痢滅達50",
+        "ingredient": "Ronidazole"
+    },
+    {
+        "name": "安保樂水溶性粉",
+        "ingredient": "Amprolium"
+    },
+    {
+        "name": "加強安保樂 16",
+        "ingredient": "Amprolium\n Ethopabate"
+    },
+    {
+        "name": "公源寧畜定100",
+        "ingredient": "Nystatin"
+    },
+    {
+        "name": "公源寧畜定250",
+        "ingredient": "Nystatin"
+    },
+    {
+        "name": "喘息寧",
+        "ingredient": "Dextromethorphan HBr\nChlorpheniramine Maleate\nDL-Methylephedrine HCl\nCaffeine\nGuaiacol Glyceryl Ether\n"
+    },
+    {
+        "name": "泰保寧100",
+        "ingredient": "Tiamulin"
+    },
+    {
+        "name": "泰保寧150",
+        "ingredient": "Tiamulin"
+    },
+    {
+        "name": "泰保寧200",
+        "ingredient": "Tiamulin"
+    },
+    {
+        "name": "鈦維寧-220",
+        "ingredient": "Tiamulin"
+    },
+    {
+        "name": "剋蛆10",
+        "ingredient": "Cyromazine"
+    },
+    {
+        "name": "剋蛆-100",
+        "ingredient": "Cyromazine"
+    },
+    {
+        "name": "巴克球-10",
+        "ingredient": "Maduramicin"
+    },
+    {
+        "name": "力更生",
+        "ingredient": "Nicarbazin"
+    },
+    {
+        "name": "加強安保樂",
+        "ingredient": "Amprolium\n Ethopabate"
+    },
+    {
+        "name": "加強安保樂8",
+        "ingredient": "Amprolium\n Ethopabate"
+    },
+    {
+        "name": "克痢平-40(外銷專用)",
+        "ingredient": "Colistin"
+    },
+    {
+        "name": "可利定-100(外銷專用)",
+        "ingredient": "Colistin"
+    },
+    {
+        "name": "可利定-125(外銷專用)",
+        "ingredient": "Colistin"
+    },
+    {
+        "name": "新黴素-154(外銷專用)",
+        "ingredient": "Neomycin"
+    },
+    {
+        "name": "青黴素-20(外銷專用)",
+        "ingredient": "Procaine Penicillin G"
+    },
+    {
+        "name": "健美肥-250(外銷專用)",
+        "ingredient": "Chlortetracycline\n Sulfamethazine\n Procaine penicillin G"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "健美肥-500(外銷專用)",
+        "ingredient": "Chlortetracycline\n Sulfamethazine\n Procaine penicillin G"
+    },
+    {
+        "name": "吉利黴素",
+        "ingredient": "Gentamycin"
+    },
+    {
+        "name": "咳寧200",
+        "ingredient": "Doxycycline"
+    },
+    {
+        "name": "福佳-20口服液",
+        "ingredient": "Florfenicol"
+    },
+    {
+        "name": "欣福佳100口服液",
+        "ingredient": "Florfenicol"
+    },
+    {
+        "name": "泰樂仙200口服液劑",
+        "ingredient": "Tylosin"
+    },
+    {
+        "name": "泰猛250",
+        "ingredient": "Tilmicosin"
+    },
+    {
+        "name": "剋痢淨200",
+        "ingredient": "Flumequine"
+    },
+    {
+        "name": "福寧500",
+        "ingredient": "Flumequine"
+    },
+    {
+        "name": "百力強120",
+        "ingredient": "Trimethoprim\n Sulphamethoxazole"
+    },
+    {
+        "name": "百力強480",
+        "ingredient": "Trimethoprim\n Sulfamethoxazole"
+    },
+    {
+        "name": "斯倍健口服劑",
+        "ingredient": "Spectinomycin"
+    },
+    {
+        "name": "痢得治",
+        "ingredient": "Neomycin\n Nalidixic Acid"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "妥剋球25",
+        "ingredient": "Toltrazuril"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "妥克球50",
+        "ingredient": "Toltrazuril"
+    },
+    {
+        "name": "安潔素10%",
+        "ingredient": "Benzalkonium Chloride"
+    },
+    {
+        "name": "安潔素50%",
+        "ingredient": "Benzalkonium Chloride"
+    },
+    {
+        "name": "保優效",
+        "ingredient": "Dimethyl Benzyl Ammonium Chloride"
+    },
+    {
+        "name": "保優驅毒淨50%",
+        "ingredient": "Didecyl Dimethyl Ammonium Bromide"
+    },
+    {
+        "name": "疫可清",
+        "ingredient": "Chlorhexidine Diacetate"
+    },
+    {
+        "name": "克菌洗",
+        "ingredient": "Chlorhexidine Digluconate"
+    },
+    {
+        "name": "禽畜霸\n (外銷專用)",
+        "ingredient": "Formaldehyde\n Glutardialdehyde"
+    },
+    {
+        "name": "清樂黴",
+        "ingredient": "Chlorhexidine Gluconate\n Miconazole"
+    },
+    {
+        "name": "寶速淨",
+        "ingredient": "Dimethyl Coco Benzyl Ammonium Chloride\n Glutaraldehyde"
+    },
+    {
+        "name": "氯衛效",
+        "ingredient": "Sodium-P-Toluenesulphon-Chloramide"
+    },
+    {
+        "name": "疫可淨",
+        "ingredient": "Sodium Troclosene"
+    },
+    {
+        "name": "剋疫碘300",
+        "ingredient": "Iodine"
+    },
+    {
+        "name": "特碘-50",
+        "ingredient": "Available Iodine"
+    },
+    {
+        "name": "特碘0.5%",
+        "ingredient": "Povidone Iodine"
+    },
+    {
+        "name": "無痛碘酒",
+        "ingredient": "Povidone Iodine"
+    },
+    {
+        "name": "疫淨",
+        "ingredient": "Potassium Sulfate\nPotassium Monopersulfate\nPotassium Hydrogen Sulfate\n"
+    },
+    {
+        "name": "清樂黴",
+        "ingredient": "Chlorhexidine Gluconate\nMiconazole"
+    },
+    {
+        "name": "必剋靈",
+        "ingredient": "Ivermectin"
+    },
+    {
+        "name": "寶速淨        ",
+        "ingredient": "Dimethyl Coco Benzyl Ammonium Chloride\nGlutaraldehyde"
+    },
+    {
+        "name": "蝨厭聞滴劑       ",
+        "ingredient": " Fipronil"
+    },
+    {
+        "name": "泌膚欣錠75",
+        "ingredient": "Cefalexin"
+    },
+    {
+        "name": "泌膚欣600",
+        "ingredient": "Cefalexin"
+    },
+    {
+        "name": "狠有利錠",
+        "ingredient": "Enrofloxacin"
+    },
+    {
+        "name": "痢得治片",
+        "ingredient": "Nalidixic Acid"
+    },
+    {
+        "name": "好心腸驅蟲錠(特小)",
+        "ingredient": "Milbemycin Oxime"
+    },
+    {
+        "name": "好心腸驅蟲錠(小)",
+        "ingredient": "Milbemycin Oxime"
+    },
+    {
+        "name": "好心腸驅蟲錠(中)",
+        "ingredient": "Milbemycin Oxime"
+    },
+    {
+        "name": "保心驅蟲錠",
+        "ingredient": "Ivermectin"
+    },
+    {
+        "name": "痢滅達錠劑",
+        "ingredient": "Ronidazole"
+    },
+    {
+        "name": "歐剋靈犬廣效性驅蟲錠(S)",
+        "ingredient": "Pyrantel Pamoate\n Ivermectin"
+    },
+    {
+        "name": "歐剋靈犬廣效性驅蟲錠(M)",
+        "ingredient": "Pyrantel Pamoate\n Ivermectin"
+    },
+    {
+        "name": "歐剋靈犬廣效性驅蟲錠(L)",
+        "ingredient": "Pyrantel Pamoate\n Ivermectin"
+    },
+    {
+        "name": "腸淨能",
+        "ingredient": "Febantel\n Pyrantel Pamoate\n Praziquantel"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "犬心奔騰",
+        "ingredient": "Pimobendan"
+    },
+    {
+        "name": "活腎",
+        "ingredient": "Ferric Citrate"
+    },
+    {
+        "name": "泌乳樂",
+        "ingredient": "Cefuroxime"
+    },
+    {
+        "name": "樂必乾",
+        "ingredient": "Procaine Penicillin G\n Neomycin"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "耳速安",
+        "ingredient": "Gentamycin\n Betamethasone\n Clotrimazole"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "耳無蟎",
+        "ingredient": "Permethrin\n Neomycin\n Nystatin\n Triamcinolone"
+    },
+    {
+        "name": "蝨厭聞",
+        "ingredient": "Fipronil"
+    },
+    {
+        "name": "百蟲淨",
+        "ingredient": "Permethrin"
+    },
+    {
+        "name": "鏈䐵素膠丸",
+        "ingredient": "Streptomycin\n Sulfamerazine Sodium\n Sulfathiazole Sodium"
+    },
+    {
+        "name": "稀釋劑",
+        "ingredient": "養多多精液保存稀釋劑"
+    },
+    {
+        "name": NaN,
+        "ingredient": NaN
+    },
+    {
+        "name": "潔乳寶",
+        "ingredient": "Dodecylbenzenesulfonate"
+    },
+    {
+        "name": "超嫩膜",
+        "ingredient": "乳頭清潔保養液"
+    }
+]
