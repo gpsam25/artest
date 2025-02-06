@@ -28,10 +28,6 @@
         "ingredient": "Procaine Penicillin G"
     },
     {
-        "name": NaN,
-        "ingredient": NaN
-    },
-    {
         "name": "益瑞惜福",
         "ingredient": "Ceftiofur"
     },
@@ -54,10 +50,6 @@
     {
         "name": "益康黴素注射劑",
         "ingredient": "Kanamycin"
-    },
-    {
-        "name": NaN,
-        "ingredient": NaN
     },
     {
         "name": "益康黴素注射液",
@@ -124,28 +116,12 @@
         "ingredient": "Sulfamethazine"
     },
     {
-        "name": NaN,
-        "ingredient": NaN
-    },
-    {
         "name": "特磺胺 25%",
         "ingredient": "Sulfadiazine\n Sulfamerazine\n Sulfamethazine"
     },
     {
-        "name": NaN,
-        "ingredient": NaN
-    },
-    {
-        "name": NaN,
-        "ingredient": NaN
-    },
-    {
         "name": "百利先12% 注射劑",
         "ingredient": "Trimethoprim\n Sulfachlorpyridazine"
-    },
-    {
-        "name": NaN,
-        "ingredient": NaN
     },
     {
         "name": "百利先24% 注射劑",
@@ -154,10 +130,6 @@
     {
         "name": "斯倍健注射劑",
         "ingredient": "Spectinomycin"
-    },
-    {
-        "name": NaN,
-        "ingredient": NaN
     },
     {
         "name": "必安黴素-S",
@@ -416,10 +388,6 @@
         "ingredient": "Flumequine"
     },
     {
-        "name": NaN,
-        "ingredient": NaN
-    },
-    {
         "name": "剋菌120",
         "ingredient": "Halquinol"
     },
@@ -498,10 +466,6 @@
     {
         "name": "杜球清",
         "ingredient": "Sulfaquinoxaline\n Amprolium"
-    },
-    {
-        "name": NaN,
-        "ingredient": NaN
     },
     {
         "name": "可安喜",
@@ -620,18 +584,6 @@
         "ingredient": "Chlortetracycline\n Sulfamethazine\n Procaine penicillin G"
     },
     {
-        "name": NaN,
-        "ingredient": NaN
-    },
-    {
-        "name": NaN,
-        "ingredient": NaN
-    },
-    {
-        "name": NaN,
-        "ingredient": NaN
-    },
-    {
         "name": "健美肥-500(外銷專用)",
         "ingredient": "Chlortetracycline\n Sulfamethazine\n Procaine penicillin G"
     },
@@ -684,16 +636,8 @@
         "ingredient": "Neomycin\n Nalidixic Acid"
     },
     {
-        "name": NaN,
-        "ingredient": NaN
-    },
-    {
         "name": "妥剋球25",
         "ingredient": "Toltrazuril"
-    },
-    {
-        "name": NaN,
-        "ingredient": NaN
     },
     {
         "name": "妥克球50",
@@ -832,10 +776,6 @@
         "ingredient": "Febantel\n Pyrantel Pamoate\n Praziquantel"
     },
     {
-        "name": NaN,
-        "ingredient": NaN
-    },
-    {
         "name": "犬心奔騰",
         "ingredient": "Pimobendan"
     },
@@ -852,16 +792,8 @@
         "ingredient": "Procaine Penicillin G\n Neomycin"
     },
     {
-        "name": NaN,
-        "ingredient": NaN
-    },
-    {
         "name": "耳速安",
         "ingredient": "Gentamycin\n Betamethasone\n Clotrimazole"
-    },
-    {
-        "name": NaN,
-        "ingredient": NaN
     },
     {
         "name": "耳無蟎",
@@ -882,10 +814,6 @@
     {
         "name": "稀釋劑",
         "ingredient": "養多多精液保存稀釋劑"
-    },
-    {
-        "name": NaN,
-        "ingredient": NaN
     },
     {
         "name": "潔乳寶",
