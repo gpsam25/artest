@@ -45,6 +45,7 @@
                 if (!medicines || !Array.isArray(medicines)) {
                     throw new Error("JSON 格式錯誤");
                 }
+                medicines = medicines.filter(med => med.category && med.name && med.ingredient && typeof med.name === 'string');
                 categorizeMedicines();
                 renderCategories();
             } catch (error) {
@@ -56,10 +57,6 @@
         function categorizeMedicines() {
             categories = {};
             medicines.forEach(med => {
-                if (!med.category || !med.name || !med.ingredient) {
-                    console.error("藥品資料缺少必要欄位", med);
-                    return;
-                }
                 if (!categories[med.category]) {
                     categories[med.category] = [];
                 }
