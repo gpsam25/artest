@@ -8,12 +8,15 @@
         body { font-family: Arial, sans-serif; text-align: center; }
         .card { display: inline-block; margin: 10px; padding: 20px; border: 1px solid #ccc; cursor: pointer; }
         .hidden { display: none; }
+        #error-message { color: red; font-weight: bold; display: none; }
     </style>
 </head>
 <body>
     <h1>藥品查詢系統</h1>
     <button onclick="showCategories()">藥品分類</button>
     <button onclick="showFlashcard()">單字卡</button>
+    
+    <div id="error-message"></div>
     
     <div id="category-section" class="hidden">
         <h2>選擇分類</h2>
@@ -33,15 +36,30 @@
         let currentFlashcard = null;
 
         async function loadMedicines() {
-            const response = await fetch("medicine_data.json");
-            medicines = await response.json();
-            categorizeMedicines();
-            renderCategories();
+            try {
+                const response = await fetch("medicine_data.json");
+                if (!response.ok) {
+                    throw new Error("無法載入 JSON 檔案");
+                }
+                medicines = await response.json();
+                if (!medicines || !Array.isArray(medicines)) {
+                    throw new Error("JSON 格式錯誤");
+                }
+                categorizeMedicines();
+                renderCategories();
+            } catch (error) {
+                document.getElementById("error-message").textContent = "錯誤: " + error.message;
+                document.getElementById("error-message").style.display = "block";
+            }
         }
 
         function categorizeMedicines() {
             categories = {};
             medicines.forEach(med => {
+                if (!med.category || !med.name || !med.ingredient) {
+                    console.error("藥品資料缺少必要欄位", med);
+                    return;
+                }
                 if (!categories[med.category]) {
                     categories[med.category] = [];
                 }
@@ -61,6 +79,8 @@
         }
 
         function showMedicines(category) {
+            document.getElementById("category-section").classList.remove("hidden");
+            document.getElementById("flashcard-section").classList.add("hidden");
             document.getElementById("selected-category").textContent = category;
             document.getElementById("selected-category").classList.remove("hidden");
             const list = document.getElementById("medicine-list");
@@ -86,12 +106,17 @@
         }
 
         function nextFlashcard() {
+            if (medicines.length === 0) {
+                document.getElementById("flashcard").textContent = "沒有可用的藥品資料";
+                return;
+            }
             const randomIndex = Math.floor(Math.random() * medicines.length);
             currentFlashcard = medicines[randomIndex];
             document.getElementById("flashcard").textContent = currentFlashcard.name;
         }
 
         function flipFlashcard() {
+            if (!currentFlashcard) return;
             const card = document.getElementById("flashcard");
             card.textContent = (card.textContent === currentFlashcard.name) ? currentFlashcard.ingredient : currentFlashcard.name;
         }
