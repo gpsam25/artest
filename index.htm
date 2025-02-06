@@ -36,23 +36,35 @@
         let currentFlashcard = null;
 
         async function loadMedicines() {
-            try {
-                const response = await fetch("medicine_data.json");
-                if (!response.ok) {
-                    throw new Error("無法載入 JSON 檔案");
-                }
-                medicines = await response.json();
-                if (!medicines || !Array.isArray(medicines)) {
-                    throw new Error("JSON 格式錯誤");
-                }
-                medicines = medicines.filter(med => med.category && med.name && med.ingredient && typeof med.name === 'string');
-                categorizeMedicines();
-                renderCategories();
-            } catch (error) {
-                document.getElementById("error-message").textContent = "錯誤: " + error.message;
-                document.getElementById("error-message").style.display = "block";
-            }
+    try {
+        console.log("開始載入藥品資料...");
+        const response = await fetch("medicine_data.json");
+        
+        if (!response.ok) {
+            throw new Error("無法載入 JSON 檔案");
         }
+
+        medicines = await response.json();
+        console.log("成功載入資料:", medicines);
+
+        if (!medicines || !Array.isArray(medicines)) {
+            throw new Error("JSON 格式錯誤");
+        }
+
+        // 過濾不完整的資料
+        medicines = medicines.filter(med => med.category && med.name && med.ingredient && typeof med.name === 'string');
+        console.log("過濾後的藥品資料:", medicines);
+
+        categorizeMedicines();
+        renderCategories();
+        console.log("藥品分類完成，頁面更新完畢");
+
+    } catch (error) {
+        console.error("載入藥品時發生錯誤:", error);
+        document.getElementById("error-message").textContent = "錯誤: " + error.message;
+        document.getElementById("error-message").style.display = "block";
+    }
+}
 
         function categorizeMedicines() {
             categories = {};
